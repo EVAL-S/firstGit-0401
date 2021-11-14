@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>医生/管理员登录</title>
+
+    <link rel="stylesheet" type="text/css" href="p_login.css"/>
+    <script type="text/javascript" src="../js/e_login.js" ></script>
+</head>
+<body>
+<div class="div">
+    <div class="head-div"></div>
+    <div class="sign-div">
+        <form method="post">
+            <h1>登录</h1>
+            <input class="input-text" type="text" id="username">
+            <input class="input-text" type="password" id="password">
+            <div class="character" id="character">
+                <div><input type="radio" name="t1" value="doctor" /><span>医生</span></div>
+                <div><input type="radio" name="t1" value="admin"/><span>管理员</span></div>
+            </div>
+            <input class="input-btn" type="button" value="登录" onclick="login();">
+        </form>
+    </div>
+</div>
+</body>
+</html>

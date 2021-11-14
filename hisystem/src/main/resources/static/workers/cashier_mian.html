@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>门诊收费处</title>
+    <link rel="stylesheet" type="text/css" href="../css/cashier_main.css"/>
+<!--    <script type="text/javascript" src="../js/cashier_main.js" ></script>-->
+</head>
+<body>
+<!--左边导航-->
+<div class="nav">
+    <div class="logo"><img src="../images/logo.jpg"></div>
+    <ul>
+        <li><a href="#">挂号</a> </li>
+        <li><a href="#">门诊费用</a></li>
+    </ul>
+</div>
+
+<!--右边内容-->
+<div class="container w">
+    <!--    头部-->
+    <div class="header">
+        <div class="user"><a href="#">张三</a></div>
+    </div>
+    <!--    内容-->
+    <div class="main_box w">
+        <div class="title"><h1>门诊收费中心</h1></div>
+        <div class="search">
+            <table>
+                <tr>
+                    <td>
+                        搜索：
+                    </td>
+                    <td>
+                        <input type="text" value="请输入收费单编号">
+                    </td>
+                    <td>
+                        <input type="text" value="请输入挂号编号">
+                    </td>
+                    <td>
+                        <button>查询</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="clinc_list">
+            <table>
+                <tr id="list_title">
+                    <td>订单编号</td>
+                    <td>挂号编号</td>
+                    <td>处方划价编号</td>
+                    <td>开药医生</td>
+                    <td>总费用(/元)</td>
+                    <td>是否缴费</td>
+                    <td>操作</td>
+                </tr>
+                <tr>
+                    <td>D0001</td>
+                    <td>G0001</td>
+                    <td>C0001</td>
+                    <td>王医生</td>
+                    <td>200</td>
+                    <td>否</td>
+                    <td><button type="submit" onclick="window.location.href='charge.html'">结算</button></td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="show_page w">
+            <table>
+                <tr>
+                    <td>共n页</td>
+                    <td><button>首页</button></td>
+                    <td>
+                        <button>上一页</button>
+                    </td>
+                    <td>
+                        <button>下一页</button>
+                    </td>
+                    <td><button>尾页</button></td>
+                    <td>当前n页</td>
+                    <td>
+                        <div class="goto_page"><span>跳转到</span><input type="text"/><span>页</span></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!--    底部-->
+    <div class="bottom">底部</div>
+</div>
+</body>
+</html>

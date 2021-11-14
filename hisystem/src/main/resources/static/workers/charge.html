@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>门诊收费</title>
+    <link rel="stylesheet" type="text/css" href="../css/charge.css"/>
+
+</head>
+<body>
+<!--左边导航-->
+<div class="nav">
+    <div class="logo"><img src="../images/logo.jpg"></div>
+    <ul>
+        <li><a href="#">挂号</a> </li>
+        <li><a href="#">门诊费用</a></li>
+    </ul>
+</div>
+
+
+<!--右边内容-->
+<div class="container w">
+    <!--    头部-->
+    <div class="header">
+        <div class="user"><a href="#">收费员1</a></div>
+    </div>
+    <!--    内容-->
+    <div class="main_box w">
+        <div class="title"><h1>门诊收费中心-收费单</h1></div>
+        <div class="search">
+            <table>
+                <tr>
+                    <td>
+                        搜索：
+                    </td>
+                    <td>
+                        <input type="text" value="请输入收费单编号">
+                    </td>
+                    <td>
+                        <input type="text" value="请输入挂号编号">
+                    </td>
+                    <td>
+                        <button>查询</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="p_list">
+            <table>
+<!--                <tr>病人信息</tr>-->
+                <tr>
+                    <td class="p_list_td">病人卡号</td>
+                    <td class="p_list_td">
+                        <input type="text" >
+                    </td>
+                    <td class="p_list_td">病人姓名</td>
+                    <td class="p_list_td">
+                        <input type="text" >
+                    </td>
+                    <td class="p_list_td">病人性别</td>
+                    <td class="p_list_td">
+                        <select>
+                            <option>男</option>
+                            <option>女</option>
+                        </select>
+                    </td>
+                    <td class="p_list_td">年龄</td>
+                    <td class="p_list_td">
+                        <input type="text" >
+                    </td>
+                    <td class="p_list_td">就诊医生</td>
+                    <td class="p_list_td"><!--或者select类选择-->
+                        <input type="text" >
+                    </td>
+                </tr>
+                <tr>
+                    <td class="p_list_td">就诊时间</td>
+                    <td class="p_list_td">
+                        <input type="text" >
+                    </td>
+                    <td class="p_list_td">就诊科室</td>
+                    <td class="p_list_td">
+                        <input type="text" >
+                    </td>
+                    <td class="p_list_td">病人类别</td>
+                    <td class="p_list_td">
+                        <input type="text" >
+                    </td>
+                    <td class="p_list_td">参保类别</td>
+                    <td class="p_list_td">
+                        <input type="text" >
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="clinc_list">
+            <table>
+                <tr id="list_title">
+                    <td>订单编号</td>
+                    <td>药品编号</td>
+                    <td>药品名称</td>
+                    <td>药品类别</td>
+                    <td>单价(/元)</td>
+                    <td>折扣</td>
+                    <td>是否医保</td>
+                </tr>
+                <tr>
+                    <td>D0001</td>
+                    <td>Y0001</td>
+                    <td>999感冒灵</td>
+                    <td>乙类</td>
+                    <td>15</td>
+                    <td>0</td>
+                    <td>否</button></td>
+                </tr>
+                <tr>
+                    <td>总价（/元）：</td>
+                    <td colspan="6">
+                        <input id="clinc_list_input" type="text" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>操作</td>
+                    <td  colspan="6"><button type="submit">打印结算</button></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    <!--    底部-->
+<!--    <div class="bottom">底部</div>-->
+</div>
+</body>
+</html>

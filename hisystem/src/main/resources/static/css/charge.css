@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.w{
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+    color: rgba(0,0,0,0.8);
+}
+
+a:hover{
+    color: rgba(0,0,0,0.27);
+}
+
+
+h1{
+    font-size: 30px;
+}
+
+input{
+    /*触发后边框颜色*/
+    outline-color: rgba(189, 45, 142, 0.22);
+}
+
+select{
+    /*触发后边框颜色*/
+    outline-color: rgba(189, 45, 142, 0.22);
+}
+
+button{
+    width: 60px;
+    height: 25px;;
+    background-color: rgba(235,255,250,0.11);
+    border: 1px solid rgba(89,238,255,0.35);
+    border-radius: 10%;
+}
+
+button:hover{
+    background-color:rgba(104,176,145,0.3);
+}
+
+
+html,body{
+    margin: 0;
+    padding: 0;
+    /*设置div与屏幕高度一致,父级元素*/
+    /*height: 100%;*/
+}
+body{
+    text-align: center;
+    background-color: rgba(236, 240, 242, 0.8);
+}
+
+.nav{
+    float: left;
+    width: 150px;
+    /*设置div与屏幕高度一致,父级元素要改*/
+    height:760px;
+    background-color:rgba(0,0,0,0.59);
+}
+
+
+.logo{
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    background-color: antiquewhite;
+}
+.logo img{
+    width: 150px;
+    height: 50px;
+}
+
+.nav ul li{
+    float:left;
+    width: 150px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.31);
+}
+
+.nav ul li:hover{
+    background-color: rgba(74, 74, 74, 0.46);
+}
+
+.nav ul li a{
+    display: block;
+    height:42px;
+    padding:0 15px;
+    line-height: 42px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.nav ul li a:hover{
+    color: gainsboro;
+}
+
+.container{
+    /*float: left;*/
+    margin-left: 150px;
+    width:1386px;
+    height:720px;
+    /*background-color: aquamarine;*/
+}
+
+.header{
+    width: 1386px;
+    height: 50px;
+    background-color:rgba(120,176,134,0.51);
+}
+
+.user{
+    float: right;
+    width: 150px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.main_box{
+    height:630px;
+    /*background-color: cadetblue;*/
+}
+/*病人信息部分*/
+.p_list{
+    padding-top: 15px;
+    margin: 0 auto;
+    width: 1274px;
+    height: 60px;
+    line-height: 50px;
+}
+.p_list>table{
+    float: left;
+    margin-left: 30px;
+    border:1px solid #ceebfc;
+    /*border-spacing: 0;*/
+}
+.p_list .p_list_td{
+    padding-left: 20px;
+}
+.p_list .p_list_td input{
+    width: 100px;
+    margin-left: 10px;
+    float: left;
+}
+.p_list .p_list_td select{
+    width: 40px;
+    margin-left: 10px;
+    float: left;
+}
+
+/*搜索部分*/
+.search{
+    margin-top: 10px;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(39, 233, 216);
+}
+
+.search>table{
+    margin: auto;
+    border-spacing: 0;
+}
+.search input{
+    margin-right: 30px;
+    width: 150px;
+    height: 25px;
+    border: 1px solid rgba(89,238,255,0.35);
+    border-radius: 5%;
+    color: gainsboro;
+    text-indent: 10px;
+}
+
+
+.search select{
+    margin-right: 30px;
+    width: 150px;
+    height: 25px;
+    border: 1px solid rgba(89,238,255,0.35);
+    border-radius: 5%;
+    text-indent: 10px;
+}
+
+.bottom{
+    width: 1386px;
+    height: 40px;
+    line-height: 40px;
+    background-color:rgba(120,176,134,0.51);
+}
+
+.title{
+    padding-top: 15px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+/*列表*/
+.clinc_list {
+    padding-top: 80px;
+    margin:0 auto;
+}
+
+.clinc_list>table{
+    margin: auto;
+    border-spacing: 0;
+
+}
+#clinc_list_input {
+    border: none;
+}
+
+.clinc_list>table td{
+    width: 180px;
+    height:40px;
+    border: 1px solid rgba(22,136,170,0.46);
+    background-color: white;
+}
+
+#list_title>td{
+    background-color: rgba(23,217,255,0.28);
+}
+
+.show_page{
+    margin-top: 20px;
+    /*background-color: antiquewhite;*/
+}
+
+.show_page>table{
+    margin: auto;
+
+}
+
+.show_page>table td{
+    width: 100px;
+}
+
+.goto_page>span{
+    float: left;
+}
+.goto_page>input{
+    float: left;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 25px;
+    border: 1px solid rgba(89,238,255,0.35);
+    border-radius: 10%;
+}

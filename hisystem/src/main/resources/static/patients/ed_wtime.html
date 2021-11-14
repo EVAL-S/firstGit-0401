@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>专家预约挂号</title>
+    <link rel="stylesheet" type="text/css" href="../css/choice_ed.css"/>
+</head>
+<body>
+<!--左边导航-->
+<div class="nav">
+    <div class="logo"><img src="../images/logo.jpg"></div>
+    <ul>
+        <li><a href="#">普通预约挂号</a> </li>
+        <li><a href="choice_ed.html">专家预约挂号</a></li>
+    </ul>
+</div>
+<!--右边内容-->
+<div class="container w">
+    <!--    头部-->
+    <div class="header">
+        <div class="user"><a href="../doctors/doc_main.html">张三</a></div>
+    </div>
+    <!--    内容-->
+    <div class="main_box w">
+        <div class="title"><h1>专家预约挂号中心</h1></div>
+        <div class="search">
+            <table>
+                <tr>
+                    <td>
+                        <input type="text" value="请输入专家姓名">
+                    </td>
+                    <td>
+                        <input type="text" value="请输入门诊名">
+                    </td>
+                    <td>
+                        <input type="text" value="请输入科室名">
+                    </td>
+                    <!--                    <td>-->
+                    <!--                        <input type="date" value="选择日期">-->
+                    <!--                    </td>-->
+                    <!--                    <td>-->
+                    <!--                        <select>-->
+                    <!--                            <option>初诊</option>-->
+                    <!--                            <option>复诊</option>-->
+                    <!--                        </select>-->
+                    <!--                    </td>-->
+                    <td>
+                        <button>查询</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="clinc_list">
+            <table>
+                <tr id="list_title">
+                    <td>专家编号</td>
+                    <td>专家姓名</td>
+                    <td>所属科室</td>
+                    <td>科室地址</td>
+                    <td>科室电话</td>
+                    <td>坐诊时间</td>
+                    <td>操作</td>
+                </tr>
+                <tr>
+                    <td>1001</td>
+                    <td>王医生</td>
+                    <td>牙科</td>
+                    <td>门诊二楼西2-105</td>
+                    <td>0589-670411</td>
+                    <td>2021-11-2 12:35</td>
+                    <td><button>预约</button></td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="show_page w">
+            <table>
+                <tr>
+                    <td>共n页</td>
+                    <td><button>首页</button></td>
+                    <td>
+                        <button>上一页</button>
+                    </td>
+                    <td>
+                        <button>下一页</button>
+                    </td>
+                    <td><button>尾页</button></td>
+                    <td>当前n页</td>
+                    <td>
+                        <div class="goto_page"><span>跳转到</span><input type="text"/><span>页</span></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!--    底部-->
+    <div class="bottom">底部</div>
+</div>
+</body>
+</html>
